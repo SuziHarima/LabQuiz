@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/styleReset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Jersey+25&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+
+        <h1>LabQuiz</h1>
+
+        <p id="description">Bem vindo ao LabQuiz!! <br> 
+            Aqui você será desafiado a testar seus conhecimentos ocultos (talvez não tão ocultos) sobre HTML e CSS! <br> 
+            Serão oito questões nas quais vocês pode responder e depois sair para se gabar para seus amigos que ainda desconhecem o caminho das trevas (ou do caminho do front end).</p>
+
+        <form>
+            <label for="nomeJogador">Jogador(a):</label><br>
+            <input type="text" placeholder="digite aqui seu nome" id="nomeJogador" name="nomeJogador" class="text-box"><br>
+       
+        <button type="submit" id="button-start">Iniciar Quiz!</button>
+        </form>
+
+
+    </header>
+
+    <main>
+
+        <form>
+            <ol>
+
+                <li>Como se define um estilo inline em HTML?</li>
+                    <label for="resposta1">Resposta:</label>
+                    <input type="text" placeholder="digite aqui sua resposta" id="resposta1" name="resposta1" class="text-box"><br><br>
+
+                <li>Qual é a tag usada para criar uma lista ordenada em HTML?</li>
+                    <input type="radio" name="question2" id="ol">
+                    <label for="ol">ol</label><br>
+
+                    <input type="radio" name="question2" id="ul">
+                    <label for="ul">ul</label><br>
+                
+                    <input type="radio" name="question2" id="li">
+                    <label for="li">li</label><br>
+
+                    <input type="radio" name="question2" id="order-list">
+                    <label for="order-list">order-list</label><br><br>
+
+                <li>Qual propriedade CSS é usada para alterar a cor do texto?</li>
+                    <input type="radio" name="question3" id="font-color">
+                    <label for="font-color">font-color</label><br>
+
+                    <input type="radio" name="question3" id="color">
+                    <label for="color">color</label><br>
+                
+                    <input type="radio" name="question3" id="background-color">
+                    <label for="background-color">background-color</label><br>
+
+                    <input type="radio" name="question3" id="text-color">
+                    <label for="text-color">text-color</label><br><br>
+
+                <li>Como se referencia um arquivo CSS externo em um documento HTML?</li>
+                    <label for="resposta4">Respota:</label>
+                    <input type="text" placeholder="digite aqui sua resposta" name="resposta4" id="resposta4" class="text-box"><br><br>
+
+                <li>Font-size é a prorpiedade CSS usada para alterar o tamanho da fonte de um texto?</li>
+                    <input type="radio" name="question5" id="sim">
+                    <label for="sim">Sim</label><br>
+
+                    <input type="radio" name="question5" id="nao">
+                    <label for="nao">Não</label><br><br>
+
+                <li>Qual é a propriedade CSS usada pra definir a largura de um elemento?</li>
+                    <input type="checkbox" name="question6height" id="question6height">
+                    <label for="question6height">height</label><br>
+
+                    <input type="checkbox" name="question6size" id="question6size">
+                    <label for="question6size">size</label><br>
+
+                    <input type="checkbox" name="question6width" id="question6width">
+                    <label for="question6width">width</label><br>
+                    
+                    <input type="checkbox" name="question6max-width" id="question6max-width">
+                    <label for="question6max-width">max-width</label><br><br>
+
+                <li>Como se cria um comentário em CSS?</li>
+                    <input type="checkbox" name="question7op1" id="question7op1">
+                    <label for="question7op1">< !-- -- ></label><br>
+
+                    <input type="checkbox" name="question7op2" id="question7op2">
+                    <label for="question7op2">//</label><br>
+
+                    <input type="checkbox" name="question7op3" id="question7op3">
+                    <label for="question7op3">/* */</label><br><br>
+
+                <li>Qual é a propriedade CSS usada para definir a altura de um elemento?</li>
+                    <input type="checkbox" name="question8op1" id="question8op1">
+                    <label for="question8op1">height</label><br>
+
+                    <input type="checkbox" name="question8op2" id="question8op2">
+                    <label for="question8op2">size</label><br>
+
+                    <input type="checkbox" name="question8op3" id="question8op3">
+                    <label for="question8op3">min-height</label><br>
+                    
+                    <input type="checkbox" name="question8op4" id="question8op4">
+                    <label for="question8op4">max-height</label><br><br>
+
+            </ol>
+
+            <button type="submit">Enviar respostas!</button>
+            <button type="reset">Limpar e começar de novo</button>
+
+
+        </form>
+
+        <img src="./image/PngItem_3591466.png" alt="caixa amarela com uma interrogação no meio" id="imagem-caixa">
+
+
+    </main>
+
+    <footer>
+
+        <p>Quiz criado por <a href="https://github.com/SuziHarima">Suzi Harima</a></p>
+
+    </footer>
+       
+</body>
+</html>
